@@ -9,7 +9,7 @@ This project aims to:
 The dataset has been collected from the Kaggle:
 https://www.kaggle.com/datasets/paakhim10/tweets-and-engagement-metrics/data
 
-How Sentiment Analysis does work?
+How Sentiment Analysis does work? <br/>
 ![image](https://github.com/user-attachments/assets/551d2e50-94ea-4b37-ba7f-b275df7ad821)
 
 
