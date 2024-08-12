@@ -8,7 +8,7 @@ with open('model_rf_tfidf.pkl', 'rb') as model_file:
     model_rf_tfidf = pickle.load(model_file)
 
 with open('tfidf_vectorizer.pkl', 'rb') as vec_file:
-    vectorizer = pickle.load(vec_file)
+    vectorizer = pickle.load(vec_file)  
 
 # Confirm the type of the loaded vectorizer
 print(f"Loaded vectorizer type: {type(vectorizer)}")
@@ -45,7 +45,7 @@ def main():
     st.write("Analyze the sentiment of any text you input! This tool will predict whether the sentiment is Neutral, Positive, or Negative.")
 
     # Input from the user
-    user_input = st.text_area("Enter Text Here:", "Type your text...")
+    user_input = st.text_area("Enter Text Here:", "I love natural language processing...")
 
     if st.button("Predict Sentiment"):
         if user_input:
