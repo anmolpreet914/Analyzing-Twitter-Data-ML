@@ -45,7 +45,7 @@ def main():
     st.write("Analyze the sentiment of any text you input! This tool will predict whether the sentiment is Neutral, Positive, or Negative.")
 
     # Input from the user
-    user_input = st.text_area("Enter Text Here:", "I love natural language processing...")
+    user_input = st.text_area("Enter Text Here:")
 
     if st.button("Predict Sentiment"):
         if user_input:
